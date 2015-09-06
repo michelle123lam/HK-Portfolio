@@ -1,0 +1,102 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* TOP FIXED NAVBAR --------------------------------*/
+.navbar-custom {
+  height: 70px;
+  padding: 10px;
+  border-bottom: 1px solid rgba(255,255,255,.3);
+  background-color: #fff;
+  opacity: 0.7;
+  border-radius: 0;
+  box-shadow: 1px 1px 2px #777;
+}
+
+.navbar-right > li > a {
+  color:#000;
+  font-family: 'Avenir',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+}
+
+.navbar-head >li > a{
+  color: #000;
+  font-family: 'Playfair Display',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 24px; /* h3 size */
+}
+
+/* HOME INTRO text half -----------------------------*/
+#intro-text {
+  padding-top: 70px;
+  height: 200vh;
+  background: #F4A653; /*#A6D2DB;*/
+  width: 50%;
+}
+#intro-text > img {
+  width: 100%;
+}
+
+.text {
+  color: #000;
+  left:10px;
+  text-align: center;
+  /*padding-top: 450px;*/
+}
+h1, .text > h1 {
+  font-family: 'Playfair Display',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+h3, .text > h3, .text > p{
+  font-family: 'Avenir',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+}
+
+/* HOME INTRO image half -------------------------------*/
+#intro-image {
+  width: 50%;
+  position: fixed;
+  right: 0;
+  top:0;
+}
+
+#intro-accolades {
+  width: 50%;
+  /*height:100%;*/
+  position: fixed;
+  right: 0;
+  top:0;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.text-white > h4 {
+  font-family: 'Avenir',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  color:#fff;
+}
+.accolade-title {
+  font-family: 'Playfair Display',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 24px; /* h3 size */
+}
+
+/* WORK portfolio-items half ---------------------------*/
+#portfolio-items {
+  padding-top: 70px;
+  height: 200vh;
+  background: #F4A653; /*#fcb314; */
+  width: 50%;
+}
+#portfolio-items .portfolio-box {
+  margin-top: 20px;
+}
+#portfolio-items .portfolio-box > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20vh;
+}

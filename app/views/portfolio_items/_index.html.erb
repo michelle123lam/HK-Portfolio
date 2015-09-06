@@ -1,0 +1,9 @@
+<!-- Displays all portfolio items -->
+<div class="text"><h1>Work</h1></div>
+<% @portfolioitems.each do |p| %>
+  <div class="col-md-6 portfolio-box">
+    <%= image_tag p.image %>
+    <div class="text" style="text-transform: uppercase"><h3><%= p.title %></h3></div>
+    <div class="text"><p><%= p.description %></p></div>
+  </div>
+<% end %>

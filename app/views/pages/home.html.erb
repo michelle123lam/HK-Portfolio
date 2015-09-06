@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Piano Portfolio</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+<div id="intro-text"><%= render 'pages/introtext' %></div>
+<div id="intro-image"><%= image_tag 'introImage.jpg' %></div>
+<div id="intro-accolades"><%= render 'pages/introaccolades' %></div>
+</body>
+</html>

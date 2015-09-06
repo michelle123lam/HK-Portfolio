@@ -20112,3 +20112,51 @@ Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702
 
 
 Started GET "/assets/introImage-235c2ed74420392c13342706c8e2967f9fa5f78acd9eb2bee42ecd8db22683eb.jpg" for ::1 at 2015-09-06 17:23:42 -0400
+
+
+Started GET "/" for ::1 at 2015-09-06 17:31:49 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/_introtext.html (1.2ms)
+  Rendered pages/_introaccolades.html (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (199.1ms)
+  Rendered templates/_navbar.html (0.1ms)
+Completed 200 OK in 315ms (Views: 309.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-3c8e72b039611c069f9712a554b56670e124d68b9cfd1ecdbc663525a4d81a50.css?body=1" for ::1 at 2015-09-06 17:31:49 -0400
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-06 17:31:49 -0400
+
+
+Started GET "/assets/portfolio_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-06 17:31:49 -0400
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-06 17:31:49 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-06 17:31:49 -0400
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-09-06 17:31:49 -0400
+
+
+Started GET "/assets/jquery/dist/jquery.self-a4777c1acac0a74340755725342901a54ed000955bf6f5320491b8b2514c86ec.js?body=1" for ::1 at 2015-09-06 17:31:49 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-06 17:31:49 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-06 17:31:49 -0400
+
+
+Started GET "/assets/portfolio_items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-06 17:31:49 -0400
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-09-06 17:31:49 -0400
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-06 17:31:49 -0400
+
+
+Started GET "/assets/introImage-235c2ed74420392c13342706c8e2967f9fa5f78acd9eb2bee42ecd8db22683eb.jpg" for ::1 at 2015-09-06 17:31:49 -0400

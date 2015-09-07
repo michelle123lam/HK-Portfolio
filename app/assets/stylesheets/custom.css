@@ -6,11 +6,10 @@ body{
 .navbar-custom {
   height: 70px;
   padding: 10px;
-  border-bottom: 1px solid rgba(255,255,255,.3);
-  background-color: #fff;
-  opacity: 0.7;
+  border-bottom: 1px solid black;
+  background-color: rgba(255,255,255,0.7);
   border-radius: 0;
-  box-shadow: 1px 1px 2px #777;
+  /*box-shadow: 1px 1px 2px #777;*/
 }
 
 .navbar-right > li > a {
@@ -30,14 +29,13 @@ body{
 /* HOME INTRO text half -----------------------------*/
 #intro-text {
   padding-top: 70px;
-  height: 200vh;
+  height: 100vh;
   background: #F4A653; /*#A6D2DB;*/
   width: 50%;
 }
-#intro-text > img {
+#intro-text .text > img {
   width: 100%;
 }
-
 .text {
   color: #000;
   left:10px;
@@ -54,6 +52,19 @@ h3, .text > h3, .text > p{
   font-weight: 300;
 }
 
+.cards > md-content {
+  padding-top: 200px;
+  background: #F4A653;
+  font-family: 'Avenir',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+}
+.cards > md-content > div > md-card {
+  background:0;
+  box-shadow:none;
+  border: 1px solid black;
+  /*background-color: rgba(255,255,255, 0.7);*/
+}
+
 /* HOME INTRO image half -------------------------------*/
 #intro-image {
   width: 50%;
@@ -64,18 +75,17 @@ h3, .text > h3, .text > p{
 
 #intro-accolades {
   width: 50%;
-  /*height:100%;*/
   position: fixed;
   right: 0;
   top:0;
   text-align: center;
-  padding-top: 200px;
+  padding-top: 250px;
 }
 
-.text-white > h4 {
+.text > h4 {
   font-family: 'Avenir',"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
-  color:#fff;
+  color:#000;
 }
 .accolade-title {
   font-family: 'Playfair Display',"Helvetica Neue",Helvetica,Arial,sans-serif;

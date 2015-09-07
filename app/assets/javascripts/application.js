@@ -15,5 +15,7 @@
 //= require turbolinks
 //= require_tree .
 //= require bootstrap/dist/js/bootstrap.min.js
-//= require angular-material/angular-material.min.js
-
+//= require angular/angular.js
+//= require angular-aria/angular-aria.js
+//= require angular-animate/angular-animate.js
+//= require angular-material/angular-material.js

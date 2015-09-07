@@ -31,7 +31,7 @@ body{
   padding-top: 70px;
   height: 100vh;
   background: #F4A653; /*#A6D2DB;*/
-  width: 50%;
+  width: 70%;
 }
 #intro-text .text > img {
   width: 100%;
@@ -67,14 +67,14 @@ h3, .text > h3, .text > p{
 
 /* HOME INTRO image half -------------------------------*/
 #intro-image {
-  width: 50%;
+  width: 30%;
   position: fixed;
   right: 0;
   top:0;
 }
 
 #intro-accolades {
-  width: 50%;
+  width: 30%;
   position: fixed;
   right: 0;
   top:0;
@@ -99,7 +99,7 @@ h3, .text > h3, .text > p{
   padding-top: 70px;
   height: 200vh;
   background: #F4A653; /*#fcb314; */
-  width: 50%;
+  width: 70%;
 }
 #portfolio-items .portfolio-box {
   margin-top: 20px;
